@@ -1,31 +1,79 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A.Data structure provides efficiency, reusability and abstraction. It plays an important role in enhancing the
+performance of a program because the main function of the program is to store and retrieve the user's data as fast as possible
 
 
 What are the various operations that can be performed on different Data Structures?
+A.Operations performed on data structure:-1)Create. 2)Destroy. 3)Traversal:-Accessing a particular data.
+4)Updation:-It updates or modifies the data.
+
 List out the areas in which data structures are applied extensively?
+A.Data structure is important in almost every aspect where data is involved. In general, algorithms that involve efficient
+data structure is applied in the following areas: numerical analysis, operating system, A.I.,
+compiler design, database management, graphics, and statistical analysis, to name a few.
+
 what is an Array?
+A. An array is a collection of similar data elements stored at contiguous memory locations.
+
 what is the difference between the Array and ArrayList?
+A.An array is a fixed-length data structure. ArrayList is a variable-length data structure. It can be
+resized itself when needed. It is mandatory to provide the size of an array while initializing it directly or indirectly.
+
 what is LinkedList?
+A.In Java, the linked list class is an ordered collection that contains many objects of the same type.
+
 How is an Array different from Linked List?
+A.An array is a collection of elements of a similar data type. Linked List is an ordered collection of elements of
+the same type in which each element is connected to the next using pointers
+
 what is queue?
+A.A queue is another common data structure that places elements in a sequence, similar to a stack
+
 what is stack?
+A.Stack is a linear data structure which follows a particular order in which the operations are performed.
+
 what is FIFO and LIFO?
+A.So basically a 'queue' is a "FIFO" - first in first out queue. While a 'stack' is a "LIFO" - last in first out queue.
+
 what is the order of complexity?
+A.
+
+
 what is the best case to search an element from an array?
+A.The best case complexity is O(1) when element is first or last element in the array.
+
 what is the worst case to search an element from an array?
+A.The worst-case time complexity is linear. Similarly, searching for an element for an element can be expensive,
+since you may need to scan the entire array.
+
 what is tree in data structure?
+A.In computer science, a tree is a widely used abstract data type that represents a
+hierarchical tree structure with a set of connected nodes.
+
 what is graph in data structure?
+A.A graph data structure is a collection of nodes that have data and are connected to other nodes. Let's try
+to understand this through an example.
+
 what is the difference between the HashTable and HashMap?
+A.HashMap allows one null key and multiple null values whereas Hashtable doesn't allow any null key or value.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+
 How HashMap works in java?
+A.
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
 What are the different ways of copying an array into another array?
 What is difference between an array and a linked list?
+
 What is DFS and BFS?
+A.BFS(Breadth First Search) uses Queue data structure for finding the shortest path. DFS(Depth First Search)
+uses Stack data structure.
+
 What is Recursion?
+A.In Java, a method that calls itself is known as a recursive method. And, this process is known as recursion
+
 What are linear and non linear data Structures?
 What is Big-(O)-notation?
 Outlined different kind of sorting algorithm with time complexity?
