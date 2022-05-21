@@ -62,10 +62,19 @@ A.HashMap allows one null key and multiple null values whereas Hashtable doesn't
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
 
 How HashMap works in java?
-A.
+A.A HashMap element has key and value in Java, elements are stored against
+a key. Map Interface implemented on HashMap in Java Collection Framework.
+elements manipulation is easy on the basis of key of the value.
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+A.It is a class in Java API, which extends IndexOutOfBoundException.
+IndexOutOfBoundsException occur when an array has been accessed with an
+illegal index. Index either negative or greater than or equal to the size of the array.
+
 What are the different ways of copying an array into another array?
+A.
 What is difference between an array and a linked list?
+A.
 
 What is DFS and BFS?
 A.BFS(Breadth First Search) uses Queue data structure for finding the shortest path. DFS(Depth First Search)
@@ -75,7 +84,14 @@ What is Recursion?
 A.In Java, a method that calls itself is known as a recursive method. And, this process is known as recursion
 
 What are linear and non linear data Structures?
+A.Linear data structure: 1. Array, 2. Stack, 3. Queue, 4. LinkedList
+Non-Linear data structure: 1. Trees 2. Graphs
+
 What is Big-(O)-notation?
+A.Big O notations is describes the performance or complexity of an algorithm.BY seeing this it is possible to understand how first the algorithm is.
+Big od specifically describes the worst-case scenario, and can be used to describe
+the execution time required or the space used by an algorithm.
+
 Outlined different kind of sorting algorithm with time complexity?
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
