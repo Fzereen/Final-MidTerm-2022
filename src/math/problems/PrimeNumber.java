@@ -14,24 +14,27 @@ public class PrimeNumber {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 *
 		 */
-		int n = 100;
-		System.out.println(arraylist(n));
+		int start = 2;
+		int end = 1000000;
+		prime(start, end);
+
+
 	}
 
-	private static boolean arraylist(int n) {
-	}
+	public static void prime(int start, int end) {
+		for (int i = start; i <= end; i++) {
+			int div_counter = 0;
+			//checks divisiblity of each number, if its prime it should only be divisible twice by one and itself ie counter
+			for (int j = 1; j <= i; j++) {
 
-	public static ArrayList arrayList(int n){
-		int count = 1, j = 0;
-		ArrayList<Integer> ar = new ArrayList<>();
-		int[] array1 = new int[40];
-		while(n>0) {
-			for (int i = 0; i < 10; i++) {
-				ar.add(n);
-				array1[j] = n;
-				n -= count;
-
+				if (i % j == 0) {
+					div_counter++;
+				}
 			}
+			if (div_counter == 2) {
+				System.out.print(i + ",");
+			}
+
 		}
 	}
 
